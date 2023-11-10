@@ -31,9 +31,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <Header />
-        <Container maxWidth="lg" sx={{ m: 1 }}>
-          {children}
-        </Container>
+        <Container sx={{ p: 3 }}>{children}</Container>
         <Footer />
       </body>
     </html>
